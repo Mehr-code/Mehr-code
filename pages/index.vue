@@ -3,6 +3,7 @@
     <NavSection />
     <HomeSection />
     <BlogSection />
+    <AboutSection />
   </div>
 </template>
 
