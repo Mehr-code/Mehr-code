@@ -16,7 +16,7 @@
     </div>
 
     <!-- Content -->
-    <div class="flex w-full">
+    <div class="flex w-full relative">
       <!-- Khanzadi PIC -->
       <div class="w-[50%]">
         <img
@@ -61,6 +61,13 @@
           </p>
         </div>
       </div>
+
+      <!-- Img Behind the items -->
+      <img
+        src="../assets/Pictures/About/InfoBG.png"
+        alt=""
+        class="opacity-15 absolute right-0 w-[50%] top-[-40px]"
+      />
     </div>
   </div>
 </template>
