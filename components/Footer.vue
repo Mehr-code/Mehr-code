@@ -4,9 +4,9 @@
     <div class="w-full bg-primary-color p-10 flex flex-col gap-16">
       <!-- The Footer Text -->
       <p class="font-bold text-6xl text-secondary-color">
-        Let<Span>’</Span>s connect<Span>!<br /></Span> Dive into my social media
-        for the latest updates<Span>,</Span> exciting projects<Span>,</Span> and
-        a peek into my tech journey<Span>!</Span>
+        Let<span>’</span>s connect<span>!<br /></span> Dive into my social media
+        for the latest updates<span>,</span> exciting projects<span>,</span> and
+        a peek into my tech journey<span>!</span>
       </p>
       <!-- Links -->
       <div class="flex w-full flex-row justify-around items-center">

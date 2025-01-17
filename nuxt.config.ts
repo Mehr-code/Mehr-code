@@ -1,10 +1,8 @@
-import { Head, Link } from "#build/components";
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
   app: {
     head: {
       link: [
@@ -15,4 +13,6 @@ export default defineNuxtConfig({
       ],
     },
   },
+  ssr: true,
+  image: { formats: ["webp", "jpeg", "png"] },
 });
