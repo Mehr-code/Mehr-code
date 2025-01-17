@@ -8,18 +8,6 @@
   </div>
 </template>
 
-<script setup>
-definePageMeta({
-  head: {
-    link: [
-      {
-        rel: "preload",
-        href: "../assets/Pictures/Home/HeaderBG.webp",
-        as: "image",
-      },
-    ],
-  },
-});
-</script>
+<script setup></script>
 
 <style scoped></style>

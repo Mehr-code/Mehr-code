@@ -2,12 +2,10 @@
   <div
     class="w-[100%] h-[500px] bg-primary-color mt-10 rounded-2xl relative overflow-hidden pt-8"
   >
-    <img
-      src="../assets/Pictures/Home/HeaderBG.svg"
-      alt=""
-      class="opacity-10 w-screen absolute scale-150 p-12"
+    <headerBG
+      class="w-full h-full scale-150 opacity-10 absolute"
+      :fontControlled="false"
     />
-
     <div class="w-full h-full flex flex-row">
       <div class="mt-32 ml-9">
         <h1 class="z-10 text-5xl text-secondary-color font-bold italic">
@@ -30,7 +28,9 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import headerBG from "~/assets/Pictures/Home/HeaderBG.svg";
+</script>
 
 <style scoped>
 span {
