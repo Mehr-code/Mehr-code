@@ -1,17 +1,23 @@
 <template>
+  <!-- Home Section -->
   <div
     class="w-[100%] h-[500px] bg-primary-color mt-10 rounded-2xl relative overflow-hidden pt-8"
   >
+    <!-- Background IMG for Header -->
     <headerBG
       class="w-full h-full scale-150 opacity-10 absolute"
       :fontControlled="false"
     />
+    <!-- Main Content for Home -->
     <div class="w-full h-full flex flex-row">
-      <div class="mt-32 ml-9">
-        <h1 class="z-10 text-5xl text-secondary-color font-bold italic">
+      <!-- Text Content -->
+      <div class="mt-32 ml-9 w-[70%]">
+        <h1
+          class="z-10 lg:text-5xl text-secondary-color font-bold italic md:text-3xl"
+        >
           Welcome To MehrCode<span class="text-accent-secondary">!</span>
         </h1>
-        <h2 class="z-10 text-3xl font-thin mt-10 text-justify w-[550px]">
+        <h2 class="z-10 lg:text-3xl md:text-2xl font-thin mt-10 text-justify">
           This website began as a promise to my professor<span>,</span
           ><b> Dr<span>.</span>Pouria Khanzadi</b><span>,</span> to create a
           small project using software engineering principles<span>.</span> That
@@ -19,16 +25,21 @@
           share and create<span>.</span>
         </h2>
       </div>
-      <img
-        src="../assets/Pictures/Home/Header.png"
-        alt=""
-        class="z-10 object-contain w-[580px]"
+
+      <!-- My PIC -->
+      <NuxtImg
+        preload
+        src="../public/HeaderCompress.webp"
+        class="z-10 w-[50%]"
+        alt="Important Pic"
+        :placeholder="[50, 25, 75, 5]"
       />
     </div>
   </div>
 </template>
 
 <script setup>
+// Component for Backgroud IMG for Header
 import headerBG from "~/assets/Pictures/Home/HeaderBG.svg";
 </script>
 

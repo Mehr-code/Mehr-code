@@ -1,32 +1,39 @@
 <template>
+  <!-- Nav Section -->
   <div class="flex w-full h-20 justify-between items-center">
+    <!-- Logo -->
     <img
       src="../assets/Pictures/Nav/Logo.png"
       alt="Logo"
       class="object-contain h-20 w-20"
     />
-    <nav class="flex flex-row justify-between w-[50%]">
+    <!-- Nav -->
+    <nav class="flex flex-row justify-between xl:w-[50%] md:w-[70%]">
+      <!-- Home -->
       <a href="#"
-        ><img
-          src="../assets/Pictures/Nav/Home.png"
+        ><NuxtImg
+          src="../public/Home.png"
           alt="Home's Link"
           class="object-contain w-20"
       /></a>
+      <!-- Blog -->
       <a href="#">
-        <img
-          src="../assets/Pictures/Nav/Blog.png"
+        <NuxtImg
+          src="../public/Blog.png"
           alt="Blog's Link"
           class="object-contain w-20"
       /></a>
+      <!-- About -->
       <a href="#">
-        <img
-          src="../assets/Pictures/Nav/About.png"
+        <NuxtImg
+          src="../public/About.png"
           alt="About's Link"
           class="object-contain w-[100px]"
       /></a>
+      <!-- Contact -->
       <a href="#">
-        <img
-          src="../assets/Pictures/Nav/Contact.png"
+        <NuxtImg
+          src="../public/Contact.png"
           alt="Contact's Link"
           class="object-contain w-32"
       /></a>

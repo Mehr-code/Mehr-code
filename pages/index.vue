@@ -1,5 +1,7 @@
 <template>
-  <div class="bg-secondary-color w-full h-full pr-52 pl-52 pt-6 pb-32">
+  <div
+    class="bg-secondary-color w-full h-full lg:pr-52 lg:pl-52 md:pr-5 md:pl-5 pt-6 pb-32"
+  >
     <NavSection />
     <HomeSection />
     <BlogSection />
