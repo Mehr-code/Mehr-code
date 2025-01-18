@@ -3,15 +3,13 @@
   <div
     class="w-[100%] h-[500px] bg-primary-color mt-10 rounded-2xl relative overflow-hidden pt-8"
   >
-    <!-- Background IMG for Header -->
-    <headerBG
-      class="w-full h-full scale-150 opacity-10 absolute"
-      :fontControlled="false"
-    />
     <!-- Main Content for Home -->
-    <div class="w-full h-full flex flex-row">
+    <div class="w-full h-full flex flex-row relative">
+      <div
+        class="absolute inset-0 bg-[url('~/assets/Pictures/Home/HeaderBG.svg')] bg-cover opacity-10"
+      ></div>
       <!-- Text Content -->
-      <div class="mt-32 ml-9 w-[70%]">
+      <div class="mt-10 ml-9 w-[70%]">
         <h1
           class="z-10 lg:text-5xl text-secondary-color font-bold italic md:text-3xl"
         >
@@ -29,7 +27,7 @@
       <!-- My PIC -->
       <NuxtImg
         preload
-        src="../public/HeaderCompress.webp"
+        src="../public/Header.png"
         class="z-10 w-[50%]"
         alt="Important Pic"
         :placeholder="[50, 25, 75, 5]"

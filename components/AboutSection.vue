@@ -66,7 +66,7 @@
       <img
         src="../assets/Pictures/About/InfoBG.png"
         alt=""
-        class="opacity-15 absolute right-0 w-[50%] top-[-40px]"
+        class="opacity-15 absolute right-0 w-[50%] top-[-40px] md:top-[20px]"
       />
     </div>
   </div>

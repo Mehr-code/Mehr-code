@@ -13,12 +13,6 @@
         >
         and creations<span>—</span>one idea at a time<span>.</span> 
       </h2>
-      <!-- Ink -->
-      <img
-        src="../assets/Pictures/Blog/Ink.png"
-        class="w-64 absolute right-3 top-[-100px] z-20"
-        alt=""
-      />
     </div>
     <!-- Blog Items -->
     <div class="w-full mt-10 flex flex-row justify-between">
@@ -36,7 +30,7 @@
         <img
           src="../assets/Pictures/Blog/BlogPic.jpg"
           alt=""
-          class="w-80 rounded-md z-10"
+          class="w-80 rounded-md z-10 mr-auto ml-auto"
         />
         <!-- Heading -->
         <h2 class="text-2xl font-semibold text-secondary-color z-10">
@@ -66,7 +60,7 @@
         <img
           src="../assets/Pictures/Blog/BlogPic.jpg"
           alt=""
-          class="w-80 rounded-md z-10"
+          class="w-80 rounded-md z-10 mr-auto ml-auto"
         />
         <!-- Heading -->
         <h2 class="text-2xl font-semibold text-secondary-color z-10">
@@ -96,7 +90,7 @@
         <img
           src="../assets/Pictures/Blog/BlogPic.jpg"
           alt=""
-          class="w-80 rounded-md z-10"
+          class="w-80 rounded-md z-10 mr-auto ml-auto"
         />
         <!-- Heading -->
         <h2 class="text-2xl font-semibold text-secondary-color z-10">
