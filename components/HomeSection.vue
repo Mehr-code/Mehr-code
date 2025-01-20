@@ -7,6 +7,7 @@
     <div
       class="w-full h-full flex md:flex-row relative flex-col justify-center items-center"
     >
+      <!-- Backgroud -->
       <div
         class="absolute inset-0 bg-[url('~/assets/Pictures/Home/HeaderBG.svg')] bg-cover opacity-10"
       ></div>

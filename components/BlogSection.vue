@@ -20,13 +20,13 @@
     >
       <!-- First Item -->
       <div
-        class="bg-primary-color md:w-[30%] md:h-[500px] w-full h-[150px] rounded-md p-4 flex md:flex-col flex-row gap-3 md:items-start relative overflow-hidden justify-center items-center"
+        class="bg-primary-color md:w-[30%] md:h-[500px] w-full h-[150px] rounded-md flex md:flex-col flex-row gap-3 md:items-start relative overflow-hidden justify-center items- p-4"
       >
         <!-- Item BG -->
         <img
           src="../assets/Pictures/Blog/BlogBG.png"
           alt=""
-          class="opacity-10 rotate-90 scale-150 h-80 absolute z-0 top-20"
+          class="opacity-10 md:rotate-90 rotate-0 scale-150 h-80 absolute z-0 top-20"
         />
         <!-- Pic -->
         <img
@@ -60,7 +60,7 @@
         <img
           src="../assets/Pictures/Blog/BlogBG.png"
           alt=""
-          class="opacity-10 rotate-90 scale-150 h-80 absolute z-0 top-20"
+          class="opacity-10 md:rotate-90 rotate-0 scale-150 h-80 absolute z-0 top-20"
         />
         <!-- Pic -->
         <img
@@ -94,7 +94,7 @@
         <img
           src="../assets/Pictures/Blog/BlogBG.png"
           alt=""
-          class="opacity-10 rotate-90 scale-150 h-80 absolute z-0 top-20"
+          class="opacity-10 md:rotate-90 rotate-0 scale-150 h-80 absolute z-0 top-20"
         />
         <!-- Pic -->
         <img
