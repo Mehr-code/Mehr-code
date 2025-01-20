@@ -1,6 +1,6 @@
 <template>
   <!-- Footer Section -->
-  <div class="mt-32 w-full mb-32 flex justify-center">
+  <div class="mt-32 w-full mb-32 flex justify-center" id="Contact">
     <div class="w-full bg-primary-color p-10 flex md:flex-col flex-row gap-16">
       <!-- The Footer Text -->
       <p class="font-bold md:text-6xl text-3xl text-secondary-color">

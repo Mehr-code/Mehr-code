@@ -14,7 +14,7 @@
       <!-- Text Content -->
       <div class="mt-10 w-full p-8 pb-0 pt-0">
         <h1
-          class="z-10 lg:text-4xl text-secondary-color font-bold italic md:text-3xl text-2xl"
+          class="z-10 lg:text-4xl text-secondary-color font-bold italic md:text-3xl text-2xl font-myFont"
         >
           Welcome To MehrCode<span class="text-accent-secondary">!</span>
         </h1>

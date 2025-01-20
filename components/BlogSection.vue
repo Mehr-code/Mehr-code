@@ -1,8 +1,8 @@
 <template>
   <!-- Blog Section -->
-  <div class="mt-32 w-full align-baseline text-center mb-32">
+  <div class="mt-32 w-full align-baseline text-center mb-32" id="Blog">
     <!-- Title -->
-    <h1 class="md:text-4xl text-2xl font-bold text-primary-color">
+    <h1 class="md:text-4xl text-2xl font-bold text-primary-color font-myFont">
       Welcome to My Idea Space<span>!</span>
     </h1>
     <!-- Desc -->
@@ -35,7 +35,9 @@
           class="md:w-80 w-32 rounded-md z-10 mr-auto ml-auto"
         />
         <!-- Heading -->
-        <h2 class="md:text-2xl text-lg font-semibold text-secondary-color z-10">
+        <h2
+          class="md:text-2xl text-lg font-semibold text-secondary-color z-10 font-myFont"
+        >
           Heading
         </h2>
         <!-- Desc -->
@@ -69,7 +71,9 @@
           class="md:w-80 w-32 rounded-md z-10 mr-auto ml-auto"
         />
         <!-- Heading -->
-        <h2 class="md:text-2xl text-lg font-semibold text-secondary-color z-10">
+        <h2
+          class="md:text-2xl text-lg font-semibold text-secondary-color z-10 font-myFont"
+        >
           Heading
         </h2>
         <!-- Desc -->
@@ -103,7 +107,9 @@
           class="md:w-80 w-32 rounded-md z-10 mr-auto ml-auto"
         />
         <!-- Heading -->
-        <h2 class="md:text-2xl text-lg font-semibold text-secondary-color z-10">
+        <h2
+          class="md:text-2xl text-lg font-semibold text-secondary-color z-10 font-myFont"
+        >
           Heading
         </h2>
         <!-- Desc -->

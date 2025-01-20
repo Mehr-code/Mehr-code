@@ -3,10 +3,10 @@
     class="bg-secondary-color w-full h-full md:pr-32 md:pl-32 pt-6 pb-32 pr-5 pl-5"
   >
     <NavSection />
-    <HomeSection />
-    <BlogSection />
-    <AboutSection />
-    <Contact />
+    <HomeSection id="Home" />
+    <BlogSection id="Blog" />
+    <AboutSection id="About" />
+    <Contact id="Contact" />
   </div>
 </template>
 

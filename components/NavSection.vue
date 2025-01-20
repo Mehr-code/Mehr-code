@@ -1,46 +1,54 @@
 <template>
   <!-- Nav Section -->
   <div class="flex w-full h-20 justify-between items-center">
-    <!-- Logo -->
-    <!-- <img
-      src="../assets/Pictures/Nav/Logo.png"
-      alt="Logo"
-      class="object-contain h-20 w-20"
-    /> -->
     <!-- Nav -->
     <nav class="flex flex-row justify-between w-full">
       <!-- Home -->
-      <a href="#"
-        ><NuxtImg
-          src="../public/Home.png"
-          alt="Home's Link"
-          class="object-contain md:w-20 w-16"
-      /></a>
+      <a
+        @click="scrollToSection('Home')"
+        class="font-bold text-3xl text-accent-primary"
+        >Home</a
+      >
       <!-- Blog -->
-      <a href="#">
-        <NuxtImg
-          src="../public/Blog.png"
-          alt="Blog's Link"
-          class="object-contain md:w-20 w-16"
-      /></a>
+      <a
+        @click="scrollToSection('Blog')"
+        class="font-bold text-3xl text-accent-primary"
+      >
+        Blog</a
+      >
       <!-- About -->
-      <a href="#">
-        <NuxtImg
-          src="../public/About.png"
-          alt="About's Link"
-          class="object-contain md:w-[100px] w-20"
-      /></a>
+      <a
+        @click="scrollToSection('About')"
+        class="font-bold text-3xl text-accent-primary"
+      >
+        About Him</a
+      >
       <!-- Contact -->
-      <a href="#">
-        <NuxtImg
-          src="../public/Contact.png"
-          alt="Contact's Link"
-          class="object-contain md:w-32 w-[100px]"
-      /></a>
+      <a
+        @click="scrollToSection('Contact')"
+        class="font-bold text-3xl text-accent-primary"
+      >
+        Contact Him</a
+      >
     </nav>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+function scrollToSection(id) {
+  const section = document.getElementById(id);
+  if (section) {
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+}
+</script>
 
-<style scoped></style>
+<style scoped>
+a {
+  cursor: pointer;
+  font-family: "Rock Salt";
+}
+</style>

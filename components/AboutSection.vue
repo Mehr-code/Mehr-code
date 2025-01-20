@@ -1,9 +1,11 @@
 <template>
   <!-- About Section -->
-  <div class="mt-32 w-full mb-32 flex flex-col gap-10">
+  <div class="mt-32 w-full mb-32 flex flex-col gap-10" id="About">
     <!-- Title -->
     <div class="w-full flex justify-center relative">
-      <h2 class="md:text-4xl text-3xl text-primary-color font-bold z-20">
+      <h2
+        class="md:text-4xl text-3xl text-primary-color font-bold z-20 font-myFont"
+      >
         Bits of Me<span>!</span>
       </h2>
 

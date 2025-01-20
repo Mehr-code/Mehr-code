@@ -9,6 +9,9 @@ export default {
         "accent-primary": "#00fee9",
         "accent-secondary": "#ff5733",
       },
+      fontFamily: {
+        myFont: "Rock Salt",
+      },
     },
   },
   plugins: [],
