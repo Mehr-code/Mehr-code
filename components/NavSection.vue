@@ -6,27 +6,27 @@
       <!-- Home -->
       <a
         @click="scrollToSection('Home')"
-        class="font-bold text-3xl text-accent-primary"
+        class="font-bold md:text-3xl text-accent-primary text-lg"
         >Home</a
       >
       <!-- Blog -->
       <a
         @click="scrollToSection('Blog')"
-        class="font-bold text-3xl text-accent-primary"
+        class="font-bold md:text-3xl text-accent-primary text-lg"
       >
         Blog</a
       >
       <!-- About -->
       <a
         @click="scrollToSection('About')"
-        class="font-bold text-3xl text-accent-primary"
+        class="font-bold md:text-3xl text-accent-primary text-lg"
       >
         About Him</a
       >
       <!-- Contact -->
       <a
         @click="scrollToSection('Contact')"
-        class="font-bold text-3xl text-accent-primary"
+        class="font-bold md:text-3xl text-accent-primary text-lg"
       >
         Contact Him</a
       >
