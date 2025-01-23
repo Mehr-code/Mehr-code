@@ -1,4 +1,10 @@
 <template>
+  <!--  <div class="w-full relative">
+<div class="w-full relative h-80 flex items-center justify-center p-2">
+<img src="https://pagedone.io/asset/uploads/1688031162.jpg" alt="image" class="rounded-md max-w-sm mx-auto h-auto shadow-none transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-400">
+</div>
+</div> -->
+
   <!-- Blog Section -->
   <div class="mt-32 w-full align-baseline text-center mb-32" id="Blog">
     <!-- Title -->
