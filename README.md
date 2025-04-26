@@ -50,14 +50,16 @@ Creative thinker 🧠✨<br>Passionate about technology 💻❤️<br>Dreams of 
 
 # 📊 GitHub Stats:
 
-<div style="display: flex; flex-wrap: wrap; flex-flow: row;">
 ![](https://github-readme-stats.vercel.app/api?username=Mehr-code&theme=react&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=Mehr-code&theme=react&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Mehr-code&theme=react&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-</div>
 
 ## 🏆 GitHub Trophies
 
 ![](https://github-profile-trophy.vercel.app/?username=Mehr-code&theme=react&no-frame=true&no-bg=false&margin-w=4)
+
+<img src="https://raw.githubusercontent.com/Mehr-code/Mehr-code/output/snake.svg" alt="Snake animation" />
+
+###
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
