@@ -58,12 +58,6 @@ Creative thinker 🧠✨<br>Passionate about technology 💻❤️<br>Dreams of 
 
 ![](https://github-profile-trophy.vercel.app/?username=Mehr-code&theme=react&no-frame=true&no-bg=false&margin-w=4)
 
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mehr-code/Mehr-code/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mehr-code/Mehr-code/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/Mehr-code/Mehr-code/output/github-snake.svg" />
-  </picture>
-
 ###
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
